@@ -9,5 +9,9 @@ verify_ssl = true
 quart = "*"
 hypercorn = "*"
 
+[scripts]
+watch = "hypercorn server:app --reload"
+run = "hypercorn server:app"
+
 [requires]
 python_version = "3.8"
