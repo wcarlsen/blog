@@ -1,9 +1,9 @@
 import Vue from "vue";
 
-var app = new Vue({
+const app = new Vue({
   el: '#app',
   delimiters: ["[[", "]]"],
   data: {
-    lol: 'Hello maiynn!'
-  }
-});
+    message: 'Hello World!'
+  },
+})
